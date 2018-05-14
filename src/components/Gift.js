@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 class Gift extends Component {
   render() {
@@ -8,4 +8,4 @@ class Gift extends Component {
   };
 };
 
-export default Gift
+export default Gift;
