@@ -42,7 +42,7 @@ describe('App', () => {
 
       it('removes the gift from `state`', () => {
         expect(app.state().gifts).toEqual([]);
-      })
+      });
     });
   });
 });
