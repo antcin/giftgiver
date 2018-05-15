@@ -4,6 +4,7 @@ A simple app where users can add and remove gifts. This app was developed follow
   - [React](https://reactjs.org/)
   - [Bootstrap](https://getbootstrap.com/)
   - CSS
+  
 - Testing
   - [Jest](https://facebook.github.io/jest/)
   - [Enzyme](https://github.com/airbnb/enzyme)
