@@ -13,11 +13,7 @@ class App extends Component {
   addGift = () => {
     const { gifts } = this.state;
 
-    const ids = this.state.gifts.map(gift => gift.id)
-
-    const max_id = max_number(ids); //...ids syntactic sugar for spreading in ids; same thing as doing 'for each...do'
-
-    gifts.push({ id: max_id + 1})
+    gifts.push({ id: max_number(this.state.gifts.map(gift => gift.id)) + 1})
 
     this.setState({ gifts })
   }
